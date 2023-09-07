@@ -37,15 +37,12 @@
 
     <Card class="home-card-box" header="系统信息" intercept="true">
       <p class="section">
-        <span class="section-title">Discuz!Q<br> (知识付费社区)系统<br>（React）版本：</span>
+        <span class="section-title">DiscuzQ系统版本：</span>
         <span>{{siteInfo.version}}</span>
         <span v-if="newVersion" class="section-title section-title-right">
           <span>[</span>
-          <a href="https://discuzq.cc/index.php?s=quan&c=show&id=1" target="_blank">新版本： {{versionNumber}}</a>
+          <a href="#" target="_blank">新版本： {{versionNumber}}</a>
           <span>]</span>
-        </span>
-        <span class="section-title section-title-right">
-          <a href="https://discuzq.cc/" target="_blank">官方社区：discuzq.cc</a>
         </span>
       </p>
       <p class="section">
@@ -70,21 +67,13 @@
       </p>
       <p class="section">
         <span class="section-title">开源贡献者：</span>
-        <span><a href="https://discuzq.cc/user/1" target="_blank">盛想团队：张安冠</a></span>
-      </p>
-      <p class="section">
-        <span class="section-title">捐助我们：</span>
-        <span><router-link
-          to="/admin/jzus"
-          style="color: #336699;"
-        > 点击进入</router-link></span>
+        <span>DiscuzQ原始团队（奶罩、小虫、老胡、九州...等），盛想团队张安冠，Nahida</span>
       </p>
     </Card>
 
     <Card class="home-card-box home-card__footer" id="other_content_footer" header="相关链接">
-      <a href="https://developer.discuz.chat/" target="_blank">使用手册</a>
-      <a href="https://discuzq.cc/" target="_blank">Discuz! Q 开源社区</a>
-      <a href="https://q.discuzq.cc/" target="_blank">Discuz! Q 老站</a>
+      <a href="https://discuzq.icu/" target="_blank">使用手册</a>
+      <a href="https://discuzq.icu/" target="_blank">捐赠帮助免费开源的 DiscuzQ 持续更新</a>
     </Card>
   </div>
 </template>

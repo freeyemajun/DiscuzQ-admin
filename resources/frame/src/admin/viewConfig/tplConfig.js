@@ -162,16 +162,6 @@ export default {
               attribution: "全局"
             }
           },
-          "jzus": {
-            comLoad: function (resolve) {
-              require(["../view/site/global/jzusView"], resolve);
-            },
-            metaInfo: {
-              title: "捐助我们",
-              name: "jzus",
-              attribution: "首页"
-            }
-          },
           "registration-btn" : {
             comLoad: function (resolve) {
               require([

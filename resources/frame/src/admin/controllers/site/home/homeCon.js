@@ -37,7 +37,8 @@ export default {
   },
   methods: {
     compareSize() {
-      this.versionNumber = dzq_latest_ver();
+      this.versionNumber = '1';
+      //this.versionNumber = dzq_latest_ver();
       const versNum = this.versionNumber.replace(/[^\d]/g, '');
       const versNum2  = this.oldVersion.replace(/[^\d]/g, '');
       if(versNum > versNum2) {

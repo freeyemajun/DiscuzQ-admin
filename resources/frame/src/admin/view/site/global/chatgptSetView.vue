@@ -1,20 +1,14 @@
 <template>
   <div class="chatgpt-set-box">
     <Card header="反代地址：">
-      <CardRow description="推荐自建反代">
+      <CardRow description="推荐自建反代（搭建联系微信Naruto1986519）">
         <el-input v-model="fandaiurl"></el-input>
-        <template #tail>
-          <span style="color: #336699"><a href="联系微信Naruto1986519" target="_blank">反代搭建</a></span>
-        </template>
       </CardRow>
     </Card>
 
     <Card header="openApiKey：">
       <CardRow description="openApiKey">
         <el-input v-model="apikey"></el-input>
-        <template #tail>
-          <span style="color: #336699"><a href="联系微信Naruto1986519" target="_blank">申请openai账号(付费)</a></span>
-        </template>
       </CardRow>
     </Card>
 
