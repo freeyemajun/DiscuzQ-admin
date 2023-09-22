@@ -54,7 +54,7 @@
           </div>
 
           <div class="index-main-con__side-footer">
-            <p>Powered by Discuz! Q</p>
+            <p></p>
           </div>
         </el-aside>
 

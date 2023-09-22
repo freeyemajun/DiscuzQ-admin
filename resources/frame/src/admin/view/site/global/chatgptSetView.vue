@@ -1,7 +1,7 @@
 <template>
   <div class="chatgpt-set-box">
     <Card header="反代地址：">
-      <CardRow description="推荐自建反代（搭建联系微信Naruto1986519）">
+      <CardRow description="推荐自建反代">
         <el-input v-model="fandaiurl"></el-input>
       </CardRow>
     </Card>

@@ -37,7 +37,7 @@
 
     <Card class="home-card-box" header="系统信息" intercept="true">
       <p class="section">
-        <span class="section-title">DiscuzQ系统版本：</span>
+        <span class="section-title">系统版本：</span>
         <span>{{siteInfo.version}}</span>
         <span v-if="newVersion" class="section-title section-title-right">
           <span>[</span>
@@ -65,15 +65,11 @@
         <span class="section-title">当前数据库尺寸：</span>
         <span>{{siteInfo.dbSize}}</span>
       </p>
-      <p class="section">
-        <span class="section-title">开源贡献者：</span>
-        <span>DiscuzQ原始团队（奶罩、小虫、老胡、九州...等），盛想团队张安冠，Nahida</span>
-      </p>
     </Card>
 
     <Card class="home-card-box home-card__footer" id="other_content_footer" header="相关链接">
       <a href="https://discuzq.icu/" target="_blank">使用手册</a>
-      <a href="https://discuzq.icu/" target="_blank">捐赠帮助免费开源的 DiscuzQ 持续更新</a>
+      <a href="https://discuzq.icu/" target="_blank">开发文档</a>
     </Card>
   </div>
 </template>

@@ -44,7 +44,7 @@
       </main>
 
       <footer class="login-footer">
-        <p>Powered by Discuz! Q</p>
+        <p></p>
       </footer>
     </div>
 </template>
